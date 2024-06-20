@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+--fonte-principal: "Roboto Mono", monospace;
+--cor-fundo: #0e0d0d;
+--branco: white;
+--teste: #07064b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco);
+    flex-wrap: wrap;
+}
+
+.sctn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.container-titulo{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container__titulo {
+    font-size: 80px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: 6.5px dotted #b10eb1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1818;
+}
+
+.container__resultado {
+    text-align: center;
+    font-size: 96px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bnt {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-btn {
+    width: 170px;
+    height: 70px;
+    border: 3px solid var(--branco);
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 24px;
+    color: var(--branco);
+    cursor: pointer;
+}
+
+.btn-btn:hover {
+    background-color: transparent;
+    border: 3px dotted var(--branco);
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rodape__paragrafo {
+    margin-top: 70px;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
